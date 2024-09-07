@@ -39,7 +39,7 @@ export default function Todo() {
           type="text"
           value={inputValue}
           onChange={handleInputChange}
-          placeholder="Agrega una nueva tarea"
+          placeholder="Ir al supermercado"
         />
         <button onClick={handleAddTodo}>Add</button>
       </div>

@@ -33,11 +33,15 @@ h1{
     margin-left: 10px;
  
 }
+.add-task button:hover{
+    background-color: #8288f7;
+}
  input{
     flex: 1; 
     margin-right: 10px; 
-    padding : 5px;
-    border: none;
+    padding : 7px;
+    border: 1px solid gray;
+    border-radius: 5px;
  }
 
 
@@ -67,13 +71,21 @@ footer{
   }
 
   ul li{
-    text-decoration: none;
     margin-top: 10px ;
+    list-style:none;
+ 
   }
   .list-task button{
     padding: 5px 10px;
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    margin-left: auto;
+    margin-left: 10px;
+  }
+
+  .list-task button:hover{
+    background-color: rgb(210, 69, 69);
+  }
+  .list-task input{
+    cursor: pointer;
   }
